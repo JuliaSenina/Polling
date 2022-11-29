@@ -5,7 +5,7 @@ import { ajax } from 'rxjs/ajax';
 
 export default class API {
   initStream() {
-    this.unread$ = ajax.getJSON('https://polling-back.herokuapp.com/messages/unread');
+    this.unread$ = ajax.getJSON('https://coursar-hero.herokuapp.com/messages/unread');
     return interval(3000).pipe(
       switchMap((intervalValue) => this.unread$),
       map((value) => value.messages),
