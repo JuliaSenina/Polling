@@ -1,0 +1,1 @@
+*{box-sizing:border-box;margin:0;max-width:100%;padding:0}.container{font-family:sans-serif}.messages{margin:100px auto;padding:15px;width:550px}.messages__incoming{margin-bottom:15px}.message{border:1px solid #2741b8;display:flex;padding:15px}.message:nth-of-type(n+2){border-top:none}.message__contact{width:225px}.message__timestamp{margin-left:auto;margin-right:0}
